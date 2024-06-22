@@ -103,4 +103,5 @@ Enter size of matrix (positive value greater than zero): 0
 Wrong number
 ```
 ## Демонстрация работы программ
+![image](https://github.com/EltexHomework/Arrays/assets/70006380/998291ba-3228-4deb-a394-45b40347c604)
 
