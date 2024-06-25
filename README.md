@@ -40,9 +40,8 @@ make clean
 ```
 ## Результаты тестирования программы
 ### Задание №1
-Пример правильного ввода:
+Пример N = 5:
 ```
-Enter size of matrix (positive value greater than zero): 5
 Matrix: 
 1 2 3 4 5 
 6 7 8 9 10 
@@ -51,27 +50,15 @@ Matrix:
 21 22 23 24 25 
 ```
 
-Пример неправильного ввода:
-```
-Enter size of matrix (positive value greater than zero): -2
-Wrong number
-```
 ### Задание №2
-Пример правильного ввода:
+Пример N = 5:
 ```
-Enter size of array (positive value greater than zero): 5
 Reverse array: 5 4 3 2 1
 ```
 
-Пример неправильного ввода:
-```
-Enter size of array (positive value greater than zero): -1
-Wrong number
-```
 ### Задание №3
-Пример правильного ввода:
+Пример N = 5:
 ```
-Enter size of matrix (positive value greater than zero): 5
 Upper triangular matrix: 
 1 1 1 1 1 
 1 1 1 1 0 
@@ -80,15 +67,9 @@ Upper triangular matrix:
 1 0 0 0 0 
 ```
 
-Пример неправильного ввода:
-```
-Enter size of matrix (positive value greater than zero): -1
-Wrong number
-```
 ### Задание №4
-Пример правильного ввода:
+Пример N = 5:
 ```
-Enter size of matrix (positive value greater than zero): 5
 Matrix: 
 1 2 3 4 5 
 16 17 18 19 6 
@@ -97,11 +78,5 @@ Matrix:
 13 12 11 10 9 
 ```
 
-Пример неправильного ввода:
-```
-Enter size of matrix (positive value greater than zero): 0
-Wrong number
-```
 ## Демонстрация работы программ
-![image](https://github.com/EltexHomework/Arrays/assets/70006380/998291ba-3228-4deb-a394-45b40347c604)
 
