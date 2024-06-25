@@ -1,39 +1,20 @@
 #include <stdio.h>
 
-int read_matrix_size();
+#define N 5
 
 void init_matrix(int rows, int cols, int matrix[][cols]);
 
 void print_matrix(int rows, int cols, int matrix[][cols]);
 
 int main(void) {
-  int size = read_matrix_size();
-  int matrix[size][size];
+  int matrix[N][N];
   
-  init_matrix(size, size, matrix);
+  init_matrix(N, N, matrix);
 
   printf("Matrix: \n");
-  print_matrix(size, size, matrix); 
+  print_matrix(N, N, matrix); 
 
   return 0;
-}
-
-int read_matrix_size() {
-  int value;
-
-  do {
-    printf("Enter size of matrix (positive value greater than zero): ");
-    if (scanf("%d", &value) == 0) {
-      printf("Error while reading value\n");
-      return -1;
-    }
-
-    if (value <= 0) {
-      printf("Wrong number\n");
-    }
-  } while (value <= 0);
-
-  return value;
 }
 
 void init_matrix(int rows, int cols, int matrix[][cols]) {
