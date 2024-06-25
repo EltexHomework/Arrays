@@ -79,4 +79,5 @@ Matrix:
 ```
 
 ## Демонстрация работы программ
+![image](https://github.com/EltexHomework/Arrays/assets/70006380/e068d4c4-c06b-43d5-84c5-ef66df83a319)
 
